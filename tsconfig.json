@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "es2015"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "paths": {
+      "~/*": ["./*"],
+      "~~/*": ["./src/*"],
+      "@/*": ["./src/*"],
+      "@@/*": ["./*"],
+      "vueclass": ["./src/vueclass.js"],
+      "assets/*": ["./src/assets/*"],
+      "static/*": ["./src/static/*"]
+    }
+  },
+  "include": ["./src/**/*", "./internals/**/*"]
+}
