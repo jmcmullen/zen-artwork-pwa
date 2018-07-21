@@ -15,7 +15,7 @@
     "e2e": "cypress run",
     "e2e:open": "cypress open"
   },
-  "author": "Simon Babay <simon@babay.fr>",
+  "author": "Jay McMullen <jmcmullen@protonmail.com>",
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.0.0-beta.47",
