@@ -63,7 +63,7 @@ export default class FeaturedArtwork extends Vue {}
   &__image-wrapper {
     width: 80%;
     max-width: 400px;
-    max-height: 256px;
+    max-height: 205px;
     margin: auto;
     display: block;
     box-shadow: 1.25rem 1.375rem 4.75rem 0 rgba(0, 0, 0, 0.42);
