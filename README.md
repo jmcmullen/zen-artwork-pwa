@@ -1,6 +1,7 @@
 # Zen Artwork
 
 > Nuxt 2 progressive web application for an art gallary operating internationally.
+
 > Based off: https://github.com/chymz/nuxt-starter
 
 ## Features
