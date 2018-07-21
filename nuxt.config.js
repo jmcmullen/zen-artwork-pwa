@@ -12,7 +12,10 @@ module.exports = merge(config, {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'description', content: 'My awesome app' },
+      {
+        name: 'description',
+        content: 'The beauty of art is truly in the eye of the beholder.',
+      },
     ],
   },
 
@@ -35,13 +38,13 @@ module.exports = merge(config, {
    * PWA manifest
    */
   manifest: {
-    name: 'Nuxt App',
-    short_name: 'Nuxt App',
+    name: 'Zen Int.',
+    short_name: 'Zen',
     lang: 'en',
-    theme_color: '#3B8070',
+    theme_color: '#5c80bc',
     background_color: '#f6f6f6',
-    description: 'My awesome app',
-    display: 'standalone',
+    description: 'The beauty of art is truly in the eye of the beholder.',
+    display: 'fullscreen',
   },
 
   /**

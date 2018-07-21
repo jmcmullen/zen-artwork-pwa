@@ -42,7 +42,7 @@ export default class FeaturedArtwork extends Vue {}
 <style lang="scss" scoped>
 .featured {
   background-color: $color-white;
-  padding: 4rem 0 2rem;
+  padding: 4rem 15px 2rem;
   text-align: center;
 
   @include tablet {
